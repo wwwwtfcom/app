@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 530893 */
+    src: url('http://at.alicdn.com/t/font_530893_c534nbdvcpx2yb9.eot');
+    src: url('http://at.alicdn.com/t/font_530893_c534nbdvcpx2yb9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_530893_c534nbdvcpx2yb9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_530893_c534nbdvcpx2yb9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_530893_c534nbdvcpx2yb9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    float: left;
+    font-size: 0.23rem;
+    text-align: center;
+    width:25%;
+    height:100%;
+    line-height:0.9rem;
+}
+/*头部*/
+header{
+    width:100%;
+    height:0.8rem;
+    background: #f8f9fb;
+}
+.header-left{
+    width:1rem;
+    height:100%;
+    text-align: center;
+    line-height:0.8rem;
+    color:#757575;
+    font-size: 0.37rem;
+    float: left;
+}
+header div{
+    width:6.5rem;
+    height:100%;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size:0.32rem;
+    color:#3a3a3a;
+    float: left;
+}
+
+/*导航*/
+nav{
+    width:100%;
+    height:0.88rem;
+    border-bottom:0.02rem solid #f0eff0;
+    box-sizing: border-box;
+}
+.nav-center{
+    width:3.21rem;
+    height:100%;
+    margin:0 auto;
+}
+.nav-center div{
+    float: left;
+    width:1.07rem;
+    height:0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color:#666;
+    box-sizing: border-box;
+}
+.nav-center div:first-child{
+    border-bottom:0.06rem solid #eb5528;
+    color:#eb5528;
+}
+
+/*商品图片*/
+.shangpin{
+    width:100%;
+    height:7.06rem;
+}
+.shangpin img{
+    display: block;
+    width:5.6rem;
+    height:6.2rem;
+    margin:0.4rem auto;
+}
+/*价格*/
+.jiage{
+    width:100%;
+    height:1.1rem;
+    background: #eb622b;
+}
+.jiage-left{
+    width:2.81rem;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.j-l-top{
+    width:2.52rem;
+    height:0.58rem;
+    line-height: 0.58rem;
+    font-size: 0.4rem;
+    color:#fff;
+    margin-left: 0.29rem;
+    margin-top: 0.13rem;
+}
+.j-l-bottom{
+    width:1.24rem;
+    height:0.39rem;
+    line-height: 0.39rem;
+    color:#f4b687;
+    font-size: 0.18rem;
+    margin-left: 0.29rem;
+    margin-top: -0.13rem;
+}
+.jiage-right{
+    width:2.5rem;
+    height:1.1rem;
+    float: right;
+}
+.j-r-top{
+    width:1.9rem;
+    height:0.33rem;
+    line-height: 0.33rem;
+    margin-top: 0.13rem;
+    color: #fcef50;
+    font-size: 0.23rem;
+}
+.j-r-bottom{
+    width:1.8rem;
+    height:0.33rem;
+    line-height: 0.33rem;
+    margin-top: 0.13rem;
+    color: red;
+    text-align: center;
+    font-size: 0.23rem;
+    background: #f4b73f;
+    border-top-left-radius: 0.13rem;
+    border-bottom-left-radius: 0.13rem;
+}
+.j-r-bottom div{
+    width:0.3rem;
+    height:0.3rem;
+    background: #fdf652;
+    border-radius: 0.13rem;
+    float: left;
+}
+
+/*销量*/
+.xiaoliang{
+    width:100%;
+    height:2.01rem;
+}
+.xiaoliang1{
+    width:6.26rem;
+    height:0.32rem;
+    font-size: 0.28rem;
+    margin:0.36rem auto;
+}
+.xiaoliang2{
+    font-size:0.26rem;
+    color:#a0a0a0;
+    margin-left:0.3rem;
+}
+.xiaoliang3{
+    font-size:0.23rem;
+    color:#a0a0a0;
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: 0.34rem;
+}
+
+/*包邮*/
+.baoyou{
+    width:100%;
+    height:1.79rem;
+    background: #f9f9f9;
+}
+.baoyou1{
+    width:100%;
+    height:0.68rem;
+    border-bottom:0.01rem solid #e0e0e0;
+    font-size: 0.23rem;
+    color:#999999;
+    line-height: 0.68rem;
+    text-align: center;
+}
+.baoyou2{
+    width:6.64rem;
+    height:0.9rem;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+.baoyou3{
+    width:0.86rem;
+    height:0.9rem;
+    float: right;
+    line-height: 0.9rem;
+    text-align: center;
+}
+.baoyou4{
+    width:100%;
+    height:0.2rem;
+    background: #ededed;
+    overflow: hidden;
+}
+
+/*尾部*/
+footer{
+    width:100%;
+    height:0.9rem;
+}
+.foot1{
+    width:1.35rem;
+    height:0.9rem;
+    float: left;
+}
+.icon1{
+    font-family: 'iconfont';
+    line-height: 0.5rem;
+    text-align: center;
+    width:0.5rem;
+    height:0.5rem;
+    margin:0 auto;
+    font-size: 0.36rem;
+    color:orange;
+}
+.zi1{
+    font-size: 0.2rem;
+    color:#666666;
+    width:0.9rem;
+    height:0.22rem;
+    line-height: 0.22rem;
+    text-align: center;
+    margin:0.05rem auto 0;
+}
+.foot2{
+    font-size: 0.3rem;
+    width:2.41rem;
+    height:0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    float: left;
+    background: #f19b38;
+    color:#fff;
+}
+.foot3{
+    font-size: 0.3rem;
+    width:2.39rem;
+    height:0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    float: left;
+    background: #eb5528;
+    color:#fff;
+}
+header a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

@@ -1,0 +1,398 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 530893 */
+    src: url('http://at.alicdn.com/t/font_530893_2l8k4s4a6vsa714i.eot');
+    src: url('http://at.alicdn.com/t/font_530893_2l8k4s4a6vsa714i.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_530893_2l8k4s4a6vsa714i.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_530893_2l8k4s4a6vsa714i.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_530893_2l8k4s4a6vsa714i.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 530893 */
+    src: url('http://at.alicdn.com/t/font_530893_pags7iv4bw0o1or.eot');
+    src: url('http://at.alicdn.com/t/font_530893_pags7iv4bw0o1or.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_530893_pags7iv4bw0o1or.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_530893_pags7iv4bw0o1or.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_530893_pags7iv4bw0o1or.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 530893 */
+    src: url('http://at.alicdn.com/t/font_530893_eyvrhtwsedf8byb9.eot');
+    src: url('http://at.alicdn.com/t/font_530893_eyvrhtwsedf8byb9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_530893_eyvrhtwsedf8byb9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_530893_eyvrhtwsedf8byb9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_530893_eyvrhtwsedf8byb9.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 530893 */
+    src: url('http://at.alicdn.com/t/font_530893_kl73u9yh0sfqd7vi.eot');
+    src: url('http://at.alicdn.com/t/font_530893_kl73u9yh0sfqd7vi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_530893_kl73u9yh0sfqd7vi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_530893_kl73u9yh0sfqd7vi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_530893_kl73u9yh0sfqd7vi.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 530893 */
+    src: url('//at.alicdn.com/t/font_530893_desb185nugd86w29.eot');
+    src: url('//at.alicdn.com/t/font_530893_desb185nugd86w29.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_530893_desb185nugd86w29.woff') format('woff'),
+    url('//at.alicdn.com/t/font_530893_desb185nugd86w29.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_530893_desb185nugd86w29.svg#iconfont') format('svg');
+}
+.iconfont{
+     font-family: 'iconfont';
+     font-style: normal;
+     color:#34a9f8;
+     font-size: 0.3rem;
+     margin-left:0.2rem;
+ }
+.iconfont1{
+    font-family: 'iconfont';
+    font-style: normal;
+    color:#fff;
+    font-size: 0.4rem;
+}
+.iconfont2{
+    font-family: 'iconfont';
+    font-style: normal;
+    font-size: 0.4rem;
+}
+.iconfontq{
+    font-family: 'iconfont';
+    font-style: normal;
+}
+.iconfontqq{
+    font-family: 'iconfont';
+    font-style: normal;
+    font-size: 0.4rem;
+    text-align: center;
+    margin-left: 0.55rem;
+    line-height: 0.7rem;
+    color:#6b6b6b;
+}
+
+
+
+
+/*头部*/
+header{
+    width:100%;
+    height:0.88rem;
+    background: #34a9f8;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 0.2rem 0;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.head-left{
+    width:0.8rem;
+    height:0.4rem;
+    line-height: 0.88rem;
+}
+.head-left span{
+    color: #fff;
+    font-size: 0.4rem;
+}
+.head-center{
+    width:4.1rem;
+    height:0.6rem;
+    background: #fff;
+    border-radius: 0.28rem;
+    align-self: center;
+    line-height: 0.6rem;
+}
+.head-center{
+    color:#bdbdbd;
+}
+.head-right{
+    width:0.8rem;
+    height:0.8rem;
+    align-self: center;
+    text-align: center;
+}
+.head-right span{
+    display: block;
+    color:#fff;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.head-rightest{
+    width:0..8rem;
+    height:0.8rem;
+    align-self: center;
+    text-align: center;
+}
+.head-rightest span{
+    display: block;
+    color:#fff;
+    font-size: 0.2rem;
+}
+
+/*标语*/
+.biaoyu{
+    width:100%;
+    height:0.79rem;
+    border-bottom:0.01rem solid #eeeeee;
+    line-height: 0.79rem;
+    padding-left: 0.22rem;
+    margin-top: 0.88rem;
+    box-sizing: border-box;
+}
+.kuaisu{
+    width:100%;
+    height:1.71rem;
+    border-bottom:0.01rem solid #eeeeee;
+}
+.kuai-left{
+    width:0.9rem;
+    height:1.01rem;
+    margin-left:0.33rem;
+    margin-top:0.38rem;
+    float: left;
+}
+.kuai-center{
+    width:4.2rem;
+    height:1.01rem;
+    float: left;
+    margin-left:0.3rem;
+}
+.kuai-center span{
+    font-size: 0.4rem;
+    color:#000;
+    float: left;
+    margin-top:0.4rem;
+}
+.quan{
+    float: left;
+    text-align: center;
+    line-height:0.29rem;
+    color:#fff;
+    width:1.04rem;
+    height:0.29rem;
+    font-size: 0.16rem;
+    margin-top:0.54rem;
+    margin-left:0.2rem;
+    background-image: -webkit-linear-gradient(left,orange,#ff4e0b);
+}
+.quan1{
+    width:2.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color:#989898;
+    float: left;
+    margin-top:0.23rem;
+}
+.kuai-left img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.kuai-right{
+    width:0.8rem;
+    height:1.71rem;
+    float: right;
+    line-height:1.71rem;
+}
+
+/*空白*/
+.kongbai {
+    width:100%;
+    height:0.2rem;
+    background: #f4f4f4;
+}
+.yijian{
+    width:100%;
+    height:0.88rem;
+    line-height: 0.88rem;
+}
+.yijian span{
+    margin-left: 0.36rem;
+}
+
+/*选科室，问医生*/
+.xuan-main{
+    width:100%;
+    height:5.52rem;
+}
+.x-m-top{
+    width:100%;
+    height:0.98rem;
+    line-height: 0.98rem;
+    padding-left: 0.34rem;
+    box-sizing: border-box;
+}
+.x-m-center{
+    width:100%;
+    height:2.27rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.x-m-center div{
+    width:25%;
+    height:2.27rem;
+    text-align: center;
+    margin-top:0.06rem;
+}
+.x-m-center img{
+    display: block;
+    width:1rem;
+    height:1rem;
+    margin:0 auto;
+}
+
+/*线上医生*/
+.online{
+    width:100%;
+    height:4.08rem;
+}
+.eight{
+    width:100%;
+    height:1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.eight1{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.wai{
+    width:1.48rem;
+    height:0.65rem;
+    border:0.01rem solid #c9bcb6;
+}
+.nei{
+    width:1.4rem;
+    height:0.57rem;
+    border:0.01rem solid #c9bcb6;
+    margin:0 auto;
+    margin-top:0.03rem;
+    line-height: 0.57rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color:#8c522a;
+}
+.da img{
+    display: block;
+    height:6.9rem;
+    height:1rem;
+    margin:0 auto;
+    margin-top:0.13rem;
+}
+
+/*特色服务*/
+.tese{
+    width:100%;
+    height:4.8rem;
+}
+.fours{
+    width:3.5rem;
+    height:1.7rem;
+    float: left;
+    margin:0.12rem;
+}
+.fours img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+
+
+/*推荐*/
+.tuitou{
+    width:100%;
+    padding:0 0.28rem;
+    height:0.9rem;
+    box-sizing: border-box;
+}
+.tuitou li{
+    line-height: 0.87rem;
+    font-size: 0.28rem;
+    float: left;
+    margin:0 0.26rem;
+    color:#6d6d6d;
+}
+.kongbais{
+    width:100%;
+    height:0.01rem;
+    background: #e1e1e1;
+}
+.tui-two{
+    width:100%;
+    height:1.79rem;
+}
+.wenzi{
+    width:4.83rem;
+    height:1.4rem;
+    margin-top:0.34rem;
+    float: left;
+}
+.tupian{
+    width:2.1rem;
+    height:1.4rem;
+    float: right;
+    margin-top:0.34rem;
+    margin-right:0.28rem;
+}
+.tupian img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+
+/*换一换*/
+.huan{
+    width:100%;
+    height:0.88rem;
+}
+.huan p{
+    text-align: center;
+    line-height:0.88rem;
+    color:#777777;
+    font-size: 0.26rem;
+}
+.qingdao{
+    width:100%;
+    height:0.88rem;
+    background: #f4f4f4;
+}
+.qingdao p{
+    color:#777777;
+    line-height:0.88rem;
+    text-align: center;
+    font-size: 0.22rem;
+}
+
+/*尾部*/
+footer{
+    width:100%;
+    height:1rem;
+    background: #fcfcfc;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+footer .wei{
+    width:25%;
+    height:100%;
+}
+.wei p{
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.01rem;
+    color:#6b6b6b;
+}
+.wei a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
